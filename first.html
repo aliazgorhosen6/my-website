@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my-website</title>
+</head>
+<body>
+    <style>
+           @keyframes animations{
+        0%{  font-size: 30px; color: darkblue;}
+        50% { font-size: 15px; color: fuchsia; }
+        100% {  font-size: 35px; color: brown ;}
+       }
+       @keyframes linkanimations{
+        from{ font-size: ;}
+       }
+        body{
+            background-color:rgb(58, 155, 20);
+            text-decoration: none;
+        }
+        .frist {
+            font-size: 30px;
+            box-shadow: 2px 2px 10px rgb(252, 0, 0);
+            margin-top: 140px;
+            margin-left: 450px;
+             color: brown;
+            background-color: fuchsia;
+            border: 20px solid red;
+            border-radius: 5px;
+            width: 500px;
+            height:400px;
+            text-align: center;
+            padding: 2px;
+        }
+    
+        #name{
+            animation-name: animations;
+            animation-duration: 5s;
+            animation-iteration-count: 2;
+        }
+        .again{
+           box-shadow:1px 1px 5px red;
+            background-color: rgba(0, 248, 165, 0.945);
+            color: rgb(245, 222, 19);
+            font-size: 35px;
+           padding: 2px 15px;
+           text-align:center;
+            border: 5px solid rgb(255, 0, 149);
+            width: 100px;
+            margin-top: 15px;
+            height: 40px;
+            margin-left: 650px; 
+        }
+        a:link{
+            text-decoration: none;
+            margin-top: 50px;
+            color: rgba(20, 97, 241, 0.849);
+            animation-name: animations;
+            animation-duration: 5s;
+            animation-iteration-count: 2;
+        }
+        a:hover{
+            color: rgba(255, 0, 0, 0.486);
+        }
+    </style>
+    <div id="name" class="frist page">
+        <h1 >WELLCOME</h1>
+        <h1 >TO</h1>
+        <h1 >WEBSITE</h1>
+    </div>
+    <div class="again frist">
+       <a href="file:///C:/Web%20development/my-website/index.html">CLICK</a>
+    </div>
+</body>
+</html>
